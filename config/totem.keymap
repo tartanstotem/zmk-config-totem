@@ -32,10 +32,10 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
+        Mac_Win_alttab {
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&kp ESC>;
+            bindings = <&kp LA(TAB)>;
         };
 
         Mac_spotlight {
