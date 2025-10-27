@@ -38,10 +38,19 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tvp {
-            timeout-ms = <100>;
+        Mac_spotlight {
+            bindings = <&kp LG(SPACE)>;
             key-positions = <11 12 13>;
-            bindings = <&tog 0>;
+        };
+
+        Mac_Win_copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <22 23>;
+        };
+
+        Mac_Win_paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <23 24>;
         };
     };
 
