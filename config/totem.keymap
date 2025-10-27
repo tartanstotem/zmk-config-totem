@@ -32,10 +32,10 @@
     combos {
         compatible = "zmk,combos";
 
-        Mac_Win_alttab {
+        Mac_alttab {
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&kp LA(TAB)>;
+            bindings = <&kp LG(TAB)>;
         };
 
         Mac_spotlight {
